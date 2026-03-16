@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jayendra ki Website</title>
+    <style>
+        body { 
+            background: linear-gradient(135deg, #0f2027, #203a43, #2c5364); 
+            color: white; 
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+            height: 100vh; 
+            margin: 0; 
+            display: flex; 
+            align-items: center; 
+            justify-content: center; 
+        }
+        .card { 
+            background: rgba(255, 255, 255, 0.1); 
+            padding: 50px; 
+            border-radius: 15px; 
+            backdrop-filter: blur(10px); 
+            box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+            text-align: center;
+            border: 1px solid rgba(255,255,255,0.1);
+        }
+        h1 { font-size: 3rem; margin: 0; color: #00d2ff; }
+        p { font-size: 1.2rem; margin-top: 10px; opacity: 0.8; }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <h1>Jayendra Mahecha</h1>
+        <p>Future Web Developer 🚀</p>
+        <p>Welcome to my first official website!</p>
+    </div>
+</body>
+</html>
