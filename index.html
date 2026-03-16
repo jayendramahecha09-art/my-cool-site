@@ -3,36 +3,41 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jayendra ki Website</title>
+    <title>Professional Portfolio</title>
     <style>
-        body { 
-            background: linear-gradient(135deg, #0f2027, #203a43, #2c5364); 
-            color: white; 
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
-            height: 100vh; 
-            margin: 0; 
-            display: flex; 
-            align-items: center; 
-            justify-content: center; 
+        /* Modern Styling */
+        body { margin: 0; font-family: 'Segoe UI', sans-serif; background: #0b0e14; color: #fff; display: flex; flex-direction: column; align-items: center; justify-content: center; height: 100vh; }
+        
+        h1 { font-size: 3rem; margin-bottom: 20px; color: #00d2ff; }
+        
+        /* Container for Buttons */
+        .btn-container { display: flex; gap: 15px; flex-wrap: wrap; justify-content: center; }
+        
+        /* Professional Buttons with Animation */
+        .btn { 
+            padding: 12px 25px; border: 2px solid #00d2ff; color: #00d2ff; 
+            text-decoration: none; border-radius: 8px; transition: all 0.4s ease; 
+            font-weight: 600; cursor: pointer;
         }
-        .card { 
-            background: rgba(255, 255, 255, 0.1); 
-            padding: 50px; 
-            border-radius: 15px; 
-            backdrop-filter: blur(10px); 
-            box-shadow: 0 10px 30px rgba(0,0,0,0.5);
-            text-align: center;
-            border: 1px solid rgba(255,255,255,0.1);
+        .btn:hover { 
+            background: #00d2ff; color: #0b0e14; 
+            box-shadow: 0 0 20px #00d2ff; transform: translateY(-5px); 
         }
-        h1 { font-size: 3rem; margin: 0; color: #00d2ff; }
-        p { font-size: 1.2rem; margin-top: 10px; opacity: 0.8; }
     </style>
 </head>
 <body>
-    <div class="card">
-        <h1>Jayendra Mahecha</h1>
-        <p>Future Web Developer 🚀</p>
-        <p>Welcome to my first official website!</p>
+
+    <h1>Jayendra Mahecha</h1>
+    <p>Welcome to my website</p>
+
+    <div class="btn-container">
+        <a href="#" class="btn">i jayendramahecha i am from nosar</a>
+        <a href="#" class="btn">bast webdeveloper</a>
+        <a href="#" class="btn">developer</a>
+        <a href="#" class="btn">jayendramahecha09</a>
+        <a href="#" class="btn">jayendramahecha</a>
+        <a href="#" class="btn">6360967951</a>
     </div>
+
 </body>
 </html>
